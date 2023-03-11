@@ -1,0 +1,69 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-top: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    margin-left:30px;
+    margin-top: 5px;
+    height: 200px;
+    width: 350px;
+    /* background-color: black; */
+    border-radius: 5%;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0.5px 3px 0 #927474 ;
+    
+}
+.elBanko{
+    margin-left: 5px;
+}
+
+.elNumero{
+    margin-top: 5px;
+    margin-left: 45px;
+    text-shadow: 0.5px 0.5px 0.5px #f7f6f6;
+}
+
+.elNombre{
+    text-shadow: 0.5px 0.5px 0.5px #f7f6f6;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.elFecha{
+    margin-left: 5px;
+}
+
+/* .df{
+    display: flex;
+} */
+.elSisDePago{
+    margin-left: 290px;
+    width: 50px;
+    height: 30px;
+    background-size: 100%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    box-sizing: border-box;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    /* font-size: larger; */
+    /* font-weight: bold; */
+}
